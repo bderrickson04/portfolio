@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+
+    /* HEADER */ 
+    header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: .5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    header>img{
+    width: 3rem;
+    }
+
+    nav>a{
+    margin: 1rem;
+    color: #fff;
+    text-decoration: none;
+    }
+
+    nav>a:hover {
+        text-decoration: underline;
+        color: #c1c1c1;
+    }
+
+    /* ABOUT */
+    #about{
+        background-color: white;
+        position: relative;
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+    .about-stars>.star1{
+        width: 7rem;
+        position: absolute;
+        top: -.4rem;
+        left: .2rem;
+        z-index: 4;
+    }
+    .about-stars>.star2{
+        width: 9rem;
+        position: absolute;
+        bottom: -.4rem;
+        left: 19rem;
+        z-index: 4;
+    }
+    .about-stars>.star3{
+        width: 10rem;
+        position: absolute;
+        top: -.4rem;
+        right: .2rem;
+        z-index: 4;
+    }
+
+    .about-text{
+        background: linear-gradient(to right, rgb(188, 188, 188), rgba(255, 255, 255, 0));
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+
+    #about>img {
+        width: 25rem;
+        position: absolute;
+        bottom: 0rem;
+        right: -4rem;
+
+    }
+
+    /* GALLERY */
+    #gallery {
+        background-color: black;
+        padding: 2rem;
+    }
+
+    #gallery>h2{
+        color: white;
+        text-align: center;
+    }
+    .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    }
+
+    .mySlides {
+    display: none;
+    }
+
+    .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    }
+
+    .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+   
+    .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    }
+
+    /* CONTACT ME */
+    #contact {
+    position: relative;
+    padding: 2rem;
+    overflow: hidden;
+    }
+
+    .contact-stars>.star1 {
+    width: 7.5rem;
+    position: absolute;
+    top: -.5rem;
+    left: .5rem;
+    z-index: 4;
+    }
+    .contact-stars>.star2 {
+    width: 9rem;
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+    z-index: 4;
+    }
+
+    .contact-inner {
+    position: relative;
+    z-index: 3;
+    background: linear-gradient(to right, rgb(188, 188, 188), rgba(186, 87, 87, 0));
+    padding: 2rem;
+    border-radius: 1rem;
+    }
+
+    .contact-inner h2 {
+    font-size: 34px;
+    color: black;
+    }
+
+    .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+    background: white;
+    border: 2px solid black;
+    border-radius: .2rem;
+    padding: .5rem;
+    font-size: 13px;
+    color: black;
+    outline: none;
+    }
+
+    .contact-form input::placeholder,
+    .contact-form textarea::placeholder {
+    color: #666;
+    font-weight: 600;
+    }
+
+    .contact-form textarea {
+    height: 110px;
+    resize: none;
+    }
+
+    .contact-form button {
+    margin-top: 6px;
+    background: black;
+    color: white;
+    border: 2px solid transparent;
+    padding: 14px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: .2rem;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .contact-form button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    }
+
+    @media screen and (min-width: 1000px){
+        /*for desktop*/
+    }

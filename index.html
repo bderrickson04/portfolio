@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Brooklyn Derrickson Portfolio</title>
+</head>
+<body>
+    <header>
+        <img src="images/BD.svg" alt="logo">
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact Me</a>
+            
+        </nav>
+  </header>
+
+  <section id="about">
+
+    <div class="about-stars">
+        <img class="star1" src="images/star1.png">
+        <img class="star2" src="images/star2.png">
+        <img class="star3" src="images/star3.png">
+    </div>
+
+    <div class="about-text">
+      <h1>Hello! <br> My name is Brooklyn Derrickson</h1>
+      <p>I am a dancer and Choreographer located in <br>Eau Claire Wisconsin.</p>
+      <p>I have been dancing for 18 years and <br>have experience teaching and <br>choreographing for all ages.</p>
+      <p>I've attended many competitions, <br>conventions, and even attended a <br>summer intensive at the CLI <br>Conservatory!</p>
+      <p>I am trained in Ballet, Lyrical, <br>Contemporary, Jazz, Tap, and Hip Hop.</p>
+    </div>
+
+    <img src="images/about.png" alt="picture of me!">
+  </section>
+
+  <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/4.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/5.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/6.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/7.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/8.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+        </div>
+    </section>
+
+  <section id="contact">
+    <div class="contact-stars">
+        <img class="star1" src="images/star1.png">
+        <img class="star2" src="images/star2.png">
+    </div>
+
+    <div class="contact-inner">
+      <h2>Contact me!</h2>
+      <div class="contact-form">
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
+        <input type="email" placeholder="Email" />
+        <textarea placeholder="Reason for Contact"></textarea>
+        <button type="button">Send</button>
+      </div>
+    </div>
+  </section>
+<script src="scripts.js"></script>
+</body>
+</html>
