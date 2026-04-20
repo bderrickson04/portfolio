@@ -36,7 +36,6 @@ body {
         background-color: white;
         position: relative;
         padding: 2rem;
-        overflow: hidden;
     }
 
     .about-stars>.star1{
@@ -50,7 +49,7 @@ body {
         width: 9rem;
         position: absolute;
         bottom: -.4rem;
-        left: 19rem;
+        left: 15rem;
         z-index: 4;
     }
     .about-stars>.star3{
@@ -65,20 +64,20 @@ body {
         background: linear-gradient(to right, rgb(188, 188, 188), rgba(255, 255, 255, 0));
         padding: 2rem;
         border-radius: 1rem;
+        font-size: 14px;
     }
 
     #about>img {
-        width: 25rem;
+        width: 22rem;
         position: absolute;
         bottom: 0rem;
         right: -4rem;
-
     }
 
     /* GALLERY */
     #gallery {
-        background-color: black;
-        padding: 2rem;
+    background-color: black;
+    padding: 2rem;
     }
 
     #gallery>h2{
@@ -203,6 +202,112 @@ body {
     border: 2px solid black;
     }
 
-    @media screen and (min-width: 1000px){
-        /*for desktop*/
+    @media screen and (min-width: 800px){
+        #about{
+        min-height: 60vh;
+        width: 90vw;
+        margin: auto;
+        background-color: white;
+        position: relative;
+        padding: 2rem;
+        }
+        .about-stars>.star1{
+        width: 8rem;
+        position: absolute;
+        top: -.4rem;
+        left: -.2rem;
+        z-index: 4;
+        }
+        .about-stars>.star2{
+        width: 11rem;
+        position: absolute;
+        bottom: -.4rem;
+        left: 25rem;
+        z-index: 4;
+        }
+        .about-stars>.star3{
+        width: 13rem;
+        position: absolute;
+        top: -.4rem;
+        right: .2rem;
+        z-index: 4;
+        }
+        .about-text{
+        background: linear-gradient(to right, rgb(188, 188, 188), rgba(255, 255, 255, 0));
+        padding: 2rem;
+        font-size: 20px;
+        border-radius: 1rem;
+        }
+        #about>img {
+        width: 35rem;
+        position: absolute;
+        bottom: 0rem;
+        right: -4rem;
+        }
+        #gallery {
+        background-color: black;
+        padding: 2rem;
+        }
+        #contact {
+        position: relative;
+        margin: auto;
+        width: 70vw;
+        padding: 2rem;
+        overflow: hidden;
+        }
+    }
+
+     @media screen and (min-width: 1000px){
+        #about{
+        min-height: 60vh;
+        width: 80vw;
+        margin: auto;
+        background-color: white;
+        position: relative;
+        padding: 2rem;
+        }
+        .about-stars>.star1{
+        width: 8rem;
+        position: absolute;
+        top: -.4rem;
+        left: -.2rem;
+        z-index: 4;
+        }
+        .about-stars>.star2{
+        width: 20rem;
+        position: absolute;
+        bottom: -.4rem;
+        left: 27rem;
+        z-index: 4;
+        }
+        .about-stars>.star3{
+        width: 18rem;
+        position: absolute;
+        top: -.4rem;
+        right: .2rem;
+        z-index: 4;
+        }
+        .about-text{
+        background: linear-gradient(to right, rgb(188, 188, 188), rgba(255, 255, 255, 0));
+        padding: 2rem;
+        font-size: 20px;
+        border-radius: 1rem;
+        }
+        #about>img {
+        width: 42rem;
+        position: absolute;
+        bottom: 0rem;
+        right: 4rem;
+        }
+        #gallery {
+        background-color: black;
+        padding: 2rem;
+        }
+        #contact {
+        position: relative;
+        margin: auto;
+        width: 70vw;
+        padding: 2rem;
+        overflow: hidden;
+        }
     }
